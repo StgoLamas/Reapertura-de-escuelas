@@ -21,3 +21,5 @@ donde
  Se busca maximizar una función objetivo que promueve la asistencia de estudiantes no infectados a las escuelas a la vez que penaliza el acumulado de personas infectadas
  $J(u(\cdot)) := \lambda_E \int^T_0 u(t)(S_E(t) + R_E(t))\,\text{d}t - \lambda_I \int^T_0 (I_E(t) + I_{NE}(t))\,\text{d}t,$
     donde $\lambda_E$ y $\lambda_{I}$ ponderan la preferencia de cada criterio.
+
+Para las simulaciones, se utilizaron datos del Centro de Modelamiento Matemático, que se pueden encontrar haciendo click [aquí](https://covid-19vis.cmm.uchile.cl/chart).
